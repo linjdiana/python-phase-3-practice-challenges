@@ -73,7 +73,7 @@ build out any helper methods if needed.
   - Usernames **can be** changed after the Player is initialized
 - `Player property username`
   - Returns the Player's username
-  - Usernames must be strings between 6 and 16 characters,
+  - Usernames must be strings between 2 and 16 characters,
     inclusive
 
 #### Result

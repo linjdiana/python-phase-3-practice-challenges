@@ -10,7 +10,7 @@ class TestGame:
     def test_has_title(self):
         '''game is initialized with a title'''
         game = Game("Skribbl.io")
-        assert (Game.title == "Skribbl.io")
+        assert (game.title == "Skribbl.io")
 
     def test_title_is_string(self):
         '''game is initialized with a title of type str'''

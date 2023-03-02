@@ -74,6 +74,7 @@ build out any helper methods if needed.
   - Returns the coffee's name
   - Should not be able to change after the coffee is created
   - hint: hasattr()
+  - if you are using exceptions comment out the test on lines 20 - 24 in the coffee_test.py and uncomment lines 26 - 30
 
 #### Order
 
