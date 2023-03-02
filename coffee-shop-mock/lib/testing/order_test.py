@@ -78,7 +78,7 @@ class TestOrders:
         customer = Customer('Wayne')
         customer_2 = Customer('Dima')
         order_1 = Order(customer, coffee, 2)
-        order_2 = Order(customer_2, Order, 5)
+        order_2 = Order(customer_2, coffee, 5)
 
         assert (len(Order.all) == 2)
         assert (order_1 in Order.all)
