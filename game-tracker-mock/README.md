@@ -73,7 +73,7 @@ build out any helper methods if needed.
   - Usernames **can be** changed after the Player is initialized
 - `Player property username`
   - Returns the Player's username
-  - Usernames must be _unique_ strings between 6 and 16 characters,
+  - Usernames must be strings between 6 and 16 characters,
     inclusive
 
 #### Result
@@ -144,12 +144,12 @@ Uncomment the following lines in the test files:
 
 #### player_tests.py
 
-- lines 37 - 45
+- lines 0 - 0
 
 #### game_tests.py
 
-- lines 26 - 30
+- lines 34 - 38
 
 #### result_tests.py
 
-- lines 20 - 30
+- lines 0 - 0
