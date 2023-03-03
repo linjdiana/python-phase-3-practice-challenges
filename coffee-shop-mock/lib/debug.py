@@ -7,5 +7,5 @@ from classes.coffee import Coffee
 
 if __name__ == '__main__':
     print("HELLO! :) let's debug")
-
+    coffee = Coffee("Mimosa")
     ipdb.set_trace()
