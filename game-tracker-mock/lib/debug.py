@@ -8,4 +8,5 @@ from classes.result import Result
 if __name__ == '__main__':
     print("HELLO! :) let's debug :vibing_potato:")
 
+    diana = Game("asd")
     ipdb.set_trace()

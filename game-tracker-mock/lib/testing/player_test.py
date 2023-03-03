@@ -133,4 +133,4 @@ class TestPlayer:
         game = Game("Skribbl.io")
         player = Player('Saaammmm')
         player.add_result(game, 2000)
-        assert
+        

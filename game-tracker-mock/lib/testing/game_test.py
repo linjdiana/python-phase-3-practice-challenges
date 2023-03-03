@@ -91,6 +91,6 @@ class TestGame:
         Result(player, game, 5000)
         Result(player, game, 4999)
         Result(player, game, 5000)
-        Result(player, game, 5000)
+        Result(player, game, 4999)
 
         assert (game.average_score(player) == 4999.5)
