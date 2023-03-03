@@ -115,11 +115,11 @@ build out any helper methods if needed.
 #### Player
 
 - `Player played_game(game)`
-  - Returns `True` if the `Player` has played this `Game` (if there is a
-    `Result` instance that has this `Player` and `Game`), returns `False`
+  - Returns `True` if the `Player` has played this `Game`
+   returns `False`
     otherwise
 - `Player num_times_played(game)`
-  - Returns the number of times the `Player` instance has played (`Result` instance created) the `Game` instance
+  - Returns the number of times the `Player` instance has played the `Game` instance
 - `Player add_result(game, score)`
   - A `Game` instance and a score (number) are passed in as arguments
   - This method should create a new `Result` instance with that `Player` instance, `Game` instance, and score

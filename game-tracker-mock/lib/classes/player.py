@@ -12,25 +12,37 @@ class Player:
     username = property(get_username, set_username)
 
     def results(self):
-        all_results = []
-        for result in Result.all:
-            if result.player == self:
-                all_results.append(result)
-        return all_results 
+        # all_results = []
+        # for result in Result.all:
+        #     if result.player == self:
+        #         all_results.append(result)
+        # return all_results 
         return [result for result in Result.all if result.player == self]
     
     def games_played(self):
         all_games = []
+        from classes.game import Game
         for result in self.results():
-            if result.game == self:
+            if isinstance(result.game, Game):
                 all_games.append(result.game)
         return all_games
         
-    # def played_game(self, game):
-    #     for self.results 
+    def played_game(self, game):
+        for result in Result.all:
+            if result.game == game:
+                return True
+    
+    def play_the_game(self):
+        played = []
+        for result in self.results:
+            if not result.player in played:
+                played.append(result.played)
+        return played
+    
+    def num_times_played(self, game):
+        if self.game == game:
+            return len(game)
 
-    def num_times_played(game):
-        pass
 
     def add_result(self, game, score):
         Result(self, game, score)
